@@ -1,0 +1,13 @@
+.title {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.par {
+    padding: 1rem;
+}

@@ -1,0 +1,24 @@
+.links {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color:black;
+    font-weight: 550;
+    
+}
+
+.links:hover {
+    border-bottom: black solid .01rem;
+    border-top: black solid .01rem;
+}
+
+.links:active {
+    border: black solid .01rem;
+    box-shadow: inset lightgray .01rem .01rem .5rem .2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+

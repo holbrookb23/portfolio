@@ -1,0 +1,47 @@
+.mess-container {
+    width: 30%;
+    /* display: flex; */
+    border: black solid 0.01rem;
+    padding: 1rem;
+    /* flex-direction: column; */
+    border-radius: 1.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.fm {
+    display: flex;
+    flex-direction: column;
+}
+
+.lbl {
+    line-height: 1.5rem;
+}
+
+.p {
+    padding: 2rem;
+}
+
+.inp {
+    padding: .3rem;
+}
+
+.txt {
+    padding: .5rem;
+}
+
+.fm-btn {
+    margin-top: 1rem;
+    width: 14%;
+    align-self: end;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.title {
+    text-align: center;
+    display: block;
+}

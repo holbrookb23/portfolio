@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 0.01rem;
+    width: 100%;
+    background-color: darkturquoise;
+}
+
