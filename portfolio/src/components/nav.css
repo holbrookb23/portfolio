@@ -20,5 +20,11 @@
 .box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+@media (max-width: 958px) {
+    .nav-sm {
+        font-size: medium;
+    }
+}

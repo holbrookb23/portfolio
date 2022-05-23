@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="bgc-blueish df jc-sb z-1">
         <div className='header'>
-            <h1 className="">Brian Holbrook</h1>
+            <h1 className="lp">Brian Holbrook</h1>
             <Nav />
           </div>
     </header>

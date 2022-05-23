@@ -1,5 +1,6 @@
 .title {
     display: flex;
+
 }
 
 .container {
@@ -10,4 +11,8 @@
 
 .par {
     padding: 1rem;
+}
+
+.pic {
+    width: 30%;
 }

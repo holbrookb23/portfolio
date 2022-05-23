@@ -10,10 +10,10 @@ function Nav() {
     <nav class="s">
         
         <div class="box">
-            <Link className="links" to="/">About Me</Link>
-            <Link className="links" to="/projects">My Work</Link>
-            <Link className="links" to="/contact">Contact Me</Link>
-            <Link className='links' to="/resume">Resume</Link>.
+            <Link className="links nav-sm" to="/">About Me</Link>
+            <Link className="links nav-sm" to="/projects">My Work</Link>
+            <Link className="links nav-sm" to="/contact">Contact Me</Link>
+            <Link className='links nav-sm' to="/resume">Resume</Link>.
             
         </div>
     </nav>

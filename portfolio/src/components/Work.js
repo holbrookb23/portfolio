@@ -3,12 +3,18 @@ import Project from './../components/Project'
 import './project.css';
 
 
-function Work(stuff) {
+function Work(array) {
   return (
-    <div>
-        <h3 class="ta-c">Projects</h3>
-        <Project stuff={stuff}/>
-        <Project stuff={stuff}/>
+    <div className="card-container" id="projects">
+        <h3 className="ta-c">Projects</h3>
+        <div className='d d-sm'>
+          <Project array={0}/>
+          <Project array={1}/>
+          <Project array={2}/>
+          <Project array={3}/>
+          <Project array={4}/>
+          <Project array={5}/>
+        </div>
     </div>
   );
 }

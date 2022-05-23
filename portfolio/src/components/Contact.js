@@ -33,7 +33,7 @@ function Contact(props) {
   return (
     <section className="bd p z-1" id="contact">
             <h3 className='title'>Leave a message</h3>
-            <div className="df p jc-se pt">
+            <div className="df pl jc-se pt">
                 <a href="mailto: bholbrook254@gmail.com"><img src={gmail} alt="gmail logo"/></a>
                 <a href="tel: 6304745206"><img src={phone} alt="Phone icon"/></a>
             </div>
@@ -68,7 +68,7 @@ function Contact(props) {
               </form>
             </div>
         
-        
+            
     </section>
   );
 }

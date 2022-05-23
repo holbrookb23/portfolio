@@ -25,6 +25,10 @@
     padding: 2rem;
 }
 
+.pl {
+    padding-left: 1rem;
+}
+
 .inp {
     padding: .3rem;
 }
